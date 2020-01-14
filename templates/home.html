@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Interpreter</title>
+        <style>
+            body{
+                text-align:center;
+                margin: auto;
+                font-family: Tahoma;
+            }
+            h1{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .intro{
+                background-color: lightgreen;
+                font-weight:bold;
+                padding: 15px;
+                width: 400px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+            }
+            .outputbox{
+                border: solid black 2px;
+                background-color:
+                lightyellow; padding: 10px;
+                width: 50%;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                padding : 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Javascript interpreter test</h1>
+        <p></p>
+        <div class="intro">
+            Assignment : Write <span style="font-weight:bold; color:blue">JavaScript</span> code that adds up all numbers from 1 to 9 and stores it in a variable called output
+
+        </div>
+        <form action="" method="POST">
+          <textarea name="input" rows="30" cols="130">Put your code here</textarea>
+          <br>
+          <input type="submit">
+        </form>
+        <br/>
+        <div class="outputbox">
+            <h3>code:</h3>
+            {{input}}
+        </div>
+        <div class="outputbox">
+            <h3>value of var output:</h3>
+            {{output}}
+        </div>
+
+    </body>
+</html>
